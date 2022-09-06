@@ -35,9 +35,9 @@ class Curso():
 
 
 
-curso1 = Curso("Matematica",5,"Ingenieria Civil")
-print(curso1)
-curso1.mostrarDatos()
+# curso1 = Curso("Matematica",5,"Ingenieria Civil")
+# print(curso1)
+# curso1.mostrarDatos()
 
 
 #curso2 = Curso("Lenguaje",4,"Ingenieria Civil")

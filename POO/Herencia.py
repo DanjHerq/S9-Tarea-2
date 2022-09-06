@@ -13,7 +13,7 @@ class Personas:
         print(self.mostrarNombreCompleto())
 
 
-class Estudiante(Personas):
+class Estudiantes(Personas):
 
     def __init__(self, apePat, apeMat, nom, pro):
         super().__init__(apePat, apeMat, nom)
@@ -24,10 +24,10 @@ class Estudiante(Personas):
         print("Profesion: {0}".format(self.profesion))
 
 
-estu1 = Estudiante("Henríquez", "Quiroz", "Daniel", "Ingenieria en Software")
-per1 = Personas("Henríquez", "Quiroz", "Daniel")
-print(estu1.mostrarNombreCompleto())
-print(estu1.profesion)
-estu1.datos()
-
-print(isinstance(per1, Personas))
+# estu1 = Estudiantes("Henríquez", "Quiroz", "Daniel", "Ingenieria en Software")
+# per1 = Personas("Henríquez", "Quiroz", "Daniel")
+# print(estu1.mostrarNombreCompleto())
+# print(estu1.profesion)
+# estu1.datos()
+#
+# print(isinstance(per1, Personas))

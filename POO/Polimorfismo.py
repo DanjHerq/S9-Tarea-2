@@ -22,9 +22,9 @@ def describirPersonas(persona):
     persona.describir()
 
 
-doc1 = Trabajador()
-describirPersonas(doc1)
-doc2 = Docente()
-describirPersonas(doc2)
-doc3 = Estudiante()
-describirPersonas(doc3)
+# doc1 = Trabajador()
+# describirPersonas(doc1)
+# doc2 = Docente()
+# describirPersonas(doc2)
+# doc3 = Estudiante()
+# describirPersonas(doc3)

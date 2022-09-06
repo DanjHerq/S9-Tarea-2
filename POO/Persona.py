@@ -30,14 +30,14 @@ class Persona():
         print("Buen dia.")
 
 
-persona1 = Persona()
-persona1.apellido = "Garcia Sanchez"
-print(persona1.apellido)
-persona1.despertar()
-print(persona1.despierta)
-
-persona2 = Persona()
-persona2.apellido = "Pardo Sanchez"
-print(persona2.apellido)
-#persona2.despertar()
-print(persona2.despierta)
+# persona1 = Persona()
+# persona1.apellido = "Henríquez Quiroz"
+# print(persona1.apellido)
+# persona1.despertar()
+# print(persona1.despierta)
+#
+# persona2 = Persona()
+# persona2.apellido = "Martínez Fuenmayor"
+# print(persona2.apellido)
+# #persona2.despertar()
+# print(persona2.despierta)
