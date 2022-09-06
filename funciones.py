@@ -7,7 +7,7 @@ def saludar():
     print("Conejo")
     return "Hola"
 
-print(saludar())
+#print(saludar())
 
 def evaluarSueldoMinimo(sueldo):
     if sueldo >= 850:
@@ -15,4 +15,4 @@ def evaluarSueldoMinimo(sueldo):
     else:
         print("Ganas menos que el sueldo minimo")
 
-evaluarSueldoMinimo(900)
+#evaluarSueldoMinimo(900)
