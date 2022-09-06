@@ -6,7 +6,7 @@ from Curso.Modulos.funcionesMatematicas import *
 from Curso.POO.Persona import Persona
 from Curso.POO.Curso import Curso
 from Curso.POO.Cuenta import Cuenta
-from Curso.POO.Herencia import Personas, Estudiante
+from Curso.POO.Herencia import Personas, Estudiantes
 from Curso.POO.HerenciaMultiple import ClaseA, ClaseB, Clasex
 from Curso.POO.Polimorfismo import Estudiante, Docente, Trabajador
 from Curso.POO.RelacionesClases import Pais, Ciudad, Urbanizacion
@@ -27,17 +27,15 @@ class Menu:
 opc=""
 while opc != "34":
     os.system("cls")
-    men = Menu("Menu Operaciones", ["1) Hola Mundo", "2) Variables", "3) Conversiones", "4) Números y Operaciones Matemáticas ", "5) Concatenación", "6) Funciones de Cadena", "7) Tuplas", "8) Listas", "9) Diccionarios", "10) Lectura de Datos", "11) Estructura Condicional", "12) Funciones", "13) Operadores Lógicos", "14) Operadores Ternarios", "15) Funcion Range", "16) Bucle For", "17) If con Tuplas y Listas", "18) Factorial de un Número", "19) Bucle While", "20) Sentencia Break, Continue y Pass", "21) Generadores", "22) Generadores 2", "23) Excepciones", "24) Sentencia Raise", "25) Módulos", "26) Paquetes", "27) POO", "28) Curso y __str__", "29) Método Accesores", "30) Herencia, Sobreescritura de Método y Principio de Sustitución", "31) Herencia Múltiple", "32) Polimorfismo", "33) Relaciones entre Clases", "34) Salir"])
+    men = Menu("Menu", ["1) Hola Mundo", "2) Variables", "3) Conversiones", "4) Números y Operaciones Matemáticas ", "5) Concatenación", "6) Funciones de Cadena", "7) Tuplas", "8) Listas", "9) Diccionarios", "10) Lectura de Datos", "11) Estructura Condicional", "12) Funciones", "13) Operadores Lógicos", "14) Operadores Ternarios", "15) Funcion Range", "16) Bucle For", "17) If con Tuplas y Listas", "18) Factorial de un Número", "19) Bucle While", "20) Sentencia Break, Continue y Pass", "21) Generadores", "22) Generadores 2", "23) Excepciones", "24) Sentencia Raise", "25) Módulos", "26) Paquetes", "27) POO", "28) Curso y __str__", "29) Método Accesores", "30) Herencia, Sobreescritura de Método y Principio de Sustitución", "31) Herencia Múltiple", "32) Polimorfismo", "33) Relaciones entre Clases", "34) Salir"])
     opc = men.menu()
     if opc == "1":
-        opc = ()
         print("Lectura")
         print("Hola Mundo")
         input("Presione una tecla para continuar...")
         os.system("cls")
 
     elif opc == "2":
-        opc2 = ()
         print("Variables")
         print("Daniel Henríquez")
         print("27")
@@ -47,7 +45,6 @@ while opc != "34":
         os.system("cls")
 
     elif opc == "3":
-        opc3 = ()
         print("Conversiones")
         numero1 = "35"
         numero2 = "18"
@@ -67,7 +64,6 @@ while opc != "34":
         os.system("cls")
 
     elif opc == "4":
-        opc4 = ()
         print("Números y Operaciones")
         num1 = 20
         num2 = 4
@@ -81,7 +77,6 @@ while opc != "34":
         os.system("cls")
 
     elif opc == "5":
-        opc5 = ()
         print("Concatenación")
         texto1 = "Hola"
         texto2 = "Mundo"
@@ -96,7 +91,6 @@ while opc != "34":
         os.system("cls")
 
     elif opc == "6":
-        opc6 = ()
         print("Funciones de Cadena")
         texto = "bienvenidos al canal de DanjHerq"
         print(texto)
@@ -115,7 +109,6 @@ while opc != "34":
         os.system("cls")
 
     elif opc == "7":
-        opc7 = ()
         print("Tuplas")
         tupla = (1, 2, 3)
         print(tupla)
@@ -139,12 +132,11 @@ while opc != "34":
         os.system("cls")
 
     elif opc == "8":
-        opc8 = ()
         print("Listas")
         listas1 = ["Daniel", 25, 98.3, True, "Quiroz", 56.3]
-        print(listas1)  # lista completa
+        print(listas1)
         print(listas1[:])
-        print(listas1[2])  # de la lista solo los numeros
+        print(listas1[2])
         print(listas1[-1])
         print(listas1[0:3])
         print(listas1[:2])
@@ -169,7 +161,6 @@ while opc != "34":
         os.system("cls")
 
     elif opc == "9":
-        opc9 = ()
         print("Diccionario")
         miDiccionario = {"España": "Madrid", "Ecuador": "Quito", "Alemania": "Berlin"}
         print(miDiccionario["Ecuador"])
@@ -196,7 +187,6 @@ while opc != "34":
         os.system("cls")
 
     elif opc == "10":
-        opc10 = ()
         print("Lectura de Datos")
         nombre = input("Ingrese su nombre: ")
         edad = int(input("Ingrese su edad: "))
@@ -210,7 +200,6 @@ while opc != "34":
         os.system("cls")
 
     elif opc == "11":
-        opc11 = ()
         print("Estructura Condicional")
         edad = int(input("Ingrese su edad: "))
         if edad >= 18:
@@ -223,7 +212,6 @@ while opc != "34":
         os.system("cls")
 
     elif opc == "12":
-        opc12 = ()
         print("Funciones")
         print(saludar())
         evaluarSueldoMinimo(900)
@@ -231,7 +219,6 @@ while opc != "34":
         os.system("cls")
 
     elif opc == "13":
-        opc13 = ()
         print("Operadores Lógicos")
         distancia = 1200
         numeroHermanos = 3
@@ -248,7 +235,6 @@ while opc != "34":
         os.system("cls")
 
     elif opc == "14":
-        opc14 = ()
         print("Operadores Ternarios")
         sexos = ("Hombre", "Mujer")
 
@@ -261,22 +247,17 @@ while opc != "34":
         os.system("cls")
 
     elif opc == "15":
-        opc15 = ()
         print("Función Range")
         numeros = range(5)
-
         print(numeros[1])
-
         numeros1 = range(4, 10)
         print(numeros1[5])
-
         numeros2 = range(10, 100, 8)
         print(numeros2[9])
         input("Presione una tecla para continuar...")
         os.system("cls")
 
     elif opc == "16":
-        opc16 = ()
         print("Bucle For")
         for i in range(1, 13):
             print(" {0} x {1} es: {2}".format(1, 1, (i * i)))
@@ -286,7 +267,6 @@ while opc != "34":
         os.system("cls")
 
     elif opc == "17":
-        opc17 = ()
         print("If, Else y Elif")
         print("--Cursos--")
         print("Matematica - Biologia - Lenguaje - Ciencias")
@@ -301,7 +281,6 @@ while opc != "34":
         os.system("cls")
 
     elif opc == "18":
-        opc18 = ()
         print("Factorial")
         numero = int(input("Ingrese un numero: "))
 
@@ -314,7 +293,6 @@ while opc != "34":
         os.system("cls")
 
     elif opc == "19":
-        opc19 = ()
         print("While")
         inicio = 2
 
@@ -327,7 +305,6 @@ while opc != "34":
         os.system("cls")
 
     elif opc == "20":
-        opc20 = ()
         print("Sentencias Break")
         for numero in range(1, 6):
             if numero <= 3:
@@ -341,7 +318,6 @@ while opc != "34":
         os.system("cls")
 
     elif opc == "21":
-        opc21 = ()
         print("Generadores")
         def generadorMultiplo7(limite):
             numero = 1
@@ -360,7 +336,6 @@ while opc != "34":
         os.system("cls")
 
     elif opc == "22":
-        opc22 = ()
         print("Generadores 2")
         def devuelveLenguaje(*lenguajes):
             for leng in lenguajes:
@@ -373,7 +348,6 @@ while opc != "34":
         os.system("cls")
 
     elif opc == "23":
-        opc23 = ()
         print("Excepciones")
         numero1 = 20
         numero2 = 0
@@ -390,7 +364,6 @@ while opc != "34":
         os.system("cls")
 
     elif opc == "24":
-        opc24 = ()
         print("Raise")
         def evaluarNota(nota):
             if nota < 0:
@@ -408,7 +381,6 @@ while opc != "34":
         os.system("cls")
 
     elif opc == "25":
-        opc25 = ()
         print("Módulos")
         print(Sumar(5, 6))
         print(Multiplicar(5, 6))
@@ -416,7 +388,6 @@ while opc != "34":
         os.system("cls")
 
     elif opc == "26":
-        opc26 = ()
         print("Paquete")
         print(multiplicar(85, 6))
         print(contraLetras("Jessenia"))
@@ -424,7 +395,6 @@ while opc != "34":
         os.system("cls")
 
     elif opc == "27":
-        opc27 = ()
         print("POO")
         def despertar(self):
             self.despierta = True
@@ -437,7 +407,6 @@ while opc != "34":
         os.system("cls")
 
     elif opc == "28":
-        opc28 = ()
         print("Curso")
         curso = Curso("Física", 7, "Ingenieria Eléctrica")
         print(curso)
@@ -446,7 +415,6 @@ while opc != "34":
         os.system("cls")
 
     elif opc == "29":
-        opc29 = ()
         print("Método Accesores")
         cuenta = Cuenta
         cuenta1 = Cuenta("Daniel Henríquez", 15000, "Soles")
@@ -458,25 +426,23 @@ while opc != "34":
         os.system("cls")
 
     elif opc == "30":
-        opc30 = ()
         print("Herencia, Sobreescritura y Sustitución")
-        estu1 = Estudiante("Henríquez", "Quiroz", "Daniel", "Ingenieria en Software")
+        estu1 = Estudiantes("Henríquez", "Quiroz", "Daniel", "Ingenieria en Software")
         per1 = Personas("Henríquez", "Quiroz", "Daniel")
         print(estu1.mostrarNombreCompleto())
         print(estu1.profesion)
         estu1.datos()
+        print(isinstance(per1, Personas))
         input("Presione una tecla para continuar...")
         os.system("cls")
 
     elif opc == "31":
-        opc31 = ()
         print("Herencia Multiple")
         cX1=Clasex(15, 21)
         input("Presione una tecla para continuar...")
         os.system("cls")
 
     elif opc == "32":
-        opc32 = ()
         print("Polimorfismo")
         def describirPersonas(persona):
             persona.describir()
@@ -490,7 +456,6 @@ while opc != "34":
         os.system("cls")
 
     elif opc == "33":
-        opc33 = ()
         print("Relaciones entre Clases")
         pais1 = Pais("Ecuador", "Guillermo Lasso")
         print(pais1)
@@ -502,10 +467,8 @@ while opc != "34":
         os.system("cls")
 
     elif opc == "34":
-            print("Gracias por usar el sistema ")
+            print("Gracias por usar el sistema. ")
     else:
-            print("Opcion no valida")
+            print("Opción no valida.")
 
-print("Lo esperamos en una proxima ocasion")
-
-
+print("Lo esperamos en una proxima ocasión.")
